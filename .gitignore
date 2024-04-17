@@ -1,0 +1,68 @@
+.venv/
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*.log
+*.pot
+*.zip
+*.pyd
+*.so
+
+# EDITOR
+# *.swp
+# .*.swp
+
+# IDE
+.idea/
+.vscode/
+
+# CI
+.tox/
+.travis/
+.circleci/
+
+# DOCS
+docs/
+build/
+dist/
+
+# TESTING
+
+# PYTEST
+.coverage
+.cache
+htmlcov/
+cover/
+
+# NOSE
+nose-report.xml
+coverage.xml
+
+# COVERAGE
+.coverage
+coverage_html_report/
+
+# BUILD
+
+# PEP8
+.pep8
+.hacking
+
+# CONTINUOUS INTEGRATION
+.ropeproject/
+
+# DOCKER
+Dockerfile
+Dockerfile.*-stage
+Dockerfile.*-prod
+Dockerfile.test
+Dockerfile.cached
+
+.dockerignore
+
+# KUBERNETES
+.helm/
+
+# PYTHON VIRTUAL ENV
+.venv/
